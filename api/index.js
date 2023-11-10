@@ -98,5 +98,3 @@ const port = process.env.PORT || 5000
 app.listen(port, () => {
   console.log(`Twitter clone is listening on http://localhost:${port}`)
 })
-
-module.exports = app
